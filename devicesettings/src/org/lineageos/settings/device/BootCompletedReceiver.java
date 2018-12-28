@@ -23,6 +23,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 
+import org.lineageos.settings.device.dirac.DiracUtils;
+
 public class BootCompletedReceiver extends BroadcastReceiver {
 
     @Override
@@ -32,6 +34,9 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             Settings.System.MIN_REFRESH_RATE, 120.0f);
         Settings.System.putFloat(context.getContentResolver(),
             Settings.System.MIN_REFRESH_RATE, refreshRate);
+
+
+        DiracUtils.initialize(context);
     }
 
 }
