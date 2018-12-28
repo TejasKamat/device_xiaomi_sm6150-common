@@ -20,4 +20,18 @@
     <string name="enable_high_refresh_rate_title">High refresh rate</string>
     <string name="enable_high_refresh_rate_summary">Enable high refresh rate for a smoother experience</string>
     <string name="current_refresh_rate_info">The display is currently running at <xliff:g id="version">%1$s</xliff:g>Hz</string>
+
+    <string name="dirac_title">Dirac sound enhancer</string>
+    <string name="dirac_headset_title">Headset type</string>
+    <string name="dirac_preset_title">Sound preset</string>
+
+    <string name="dirac_headset_0">Headset 0</string>
+    <string name="dirac_headset_1">Headset 1</string>
+    <string name="dirac_headset_2">Headset 2</string>
+    <string name="dirac_headset_3">Headset 3</string>
+
+    <string name="dirac_preset_0">Preset 0</string>
+    <string name="dirac_preset_1">Preset 1</string>
+    <string name="dirac_preset_2">Preset 2</string>
+    <string name="dirac_preset_3">Preset 3</string>
 </resources>
